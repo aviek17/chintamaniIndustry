@@ -55,7 +55,7 @@ nav ul li a:hover {
 nav ul ul {
   position: absolute;
   top: 90px;
-  transition: top 1s;
+  transition: top 0.3s;
 }
 
 nav ul ul {
