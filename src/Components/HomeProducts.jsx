@@ -21,6 +21,7 @@ const HomeProducts = () => {
                                 <h3 className="card-header">Brick</h3>
                                 <button className="card-btn">
                                     Visit Here  <img src={arrow} alt="" />
+                                    <div></div>
                                 </button>
                             </div>
                         </div>
@@ -32,6 +33,7 @@ const HomeProducts = () => {
                                 <h3 className="card-header">CheckBox</h3>
                                 <button className="card-btn">
                                     Visit Here      <img src={arrow} alt="" />
+                                    <div></div>
                                 </button>
                             </div>
                         </div>
@@ -43,6 +45,7 @@ const HomeProducts = () => {
                                 <h3 className="card-header">Flower</h3>
                                 <button className="card-btn">
                                     Visit Here     <img src={arrow} alt="" />
+                                    <div></div>
                                 </button>
                             </div>
                         </div>
@@ -54,6 +57,7 @@ const HomeProducts = () => {
                                 <h3 className="card-header">Cosmic</h3>
                                 <button className="card-btn">
                                     Visit Here    <img src={arrow} alt="" />
+                                    <div></div>
                                 </button>
                             </div>
                         </div>
@@ -71,6 +75,7 @@ const HomeProducts = () => {
                                 <h3 className="card-header">Brick</h3>
                                 <button className="card-btn">
                                     Visit Here  <img src={arrow} alt="" />
+                                    <div></div>
                                 </button>
                             </div>
                         </div>
@@ -82,6 +87,7 @@ const HomeProducts = () => {
                                 <h3 className="card-header">CheckBox</h3>
                                 <button className="card-btn">
                                     Visit Here      <img src={arrow} alt="" />
+                                    <div></div>
                                 </button>
                             </div>
                         </div>
@@ -93,6 +99,7 @@ const HomeProducts = () => {
                                 <h3 className="card-header">Flower</h3>
                                 <button className="card-btn">
                                     Visit Here     <img src={arrow} alt="" />
+                                    <div></div>
                                 </button>
                             </div>
                         </div>
@@ -104,6 +111,7 @@ const HomeProducts = () => {
                                 <h3 className="card-header">Cosmic</h3>
                                 <button className="card-btn">
                                     Visit Here    <img src={arrow} alt="" />
+                                  
                                 </button>
                             </div>
                         </div>

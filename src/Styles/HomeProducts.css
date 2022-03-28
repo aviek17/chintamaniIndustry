@@ -56,54 +56,65 @@
   margin-bottom: 10px;
 }
 
-.card-btn{
-    display: block;
-    width: 100%;
-    padding: 1rem;
-    font-size: 18px;
-    text-align: center;
-    color : #3363ff;
-    background-color: #d8e0fd;
-    border :  none;
-    border-radius: 0.4rem;
-    transition: 0.3s;
-    cursor: pointer;
-
+.card-btn {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  font-size: 18px;
+  text-align: center;
+  color: #3363ff;
+  background-color: #d8e0fd;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-.moreProducts{
-    text-align: center;
-    margin: 10px;
+.moreProducts {
+  text-align: center;
+  margin: 10px;
 }
-.moreProducts .moreButtonProducts{
-    margin: 10px;
-    border: none;
-    width: 18%;
-    padding: 1rem;
-    font-size: 18px;
-    text-align: center;
-    background-color: #f0c7a5;
-    border :  none;
-    border-radius: 0.4rem;
-    transition: 0.3s;
-    cursor: pointer;
-
-}
-
-.moreProducts .moreButtonProducts:hover{
-    background-color: rgb(247, 144, 144);
+.moreProducts .moreButtonProducts {
+  margin: 10px;
+  border: none;
+  width: 18%;
+  padding: 1rem;
+  font-size: 18px;
+  text-align: center;
+  background-color: #f0c7a5;
+  border: none;
+  border-radius: 0.4rem;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-.moreProducts .moreButtonProducts a{
-    color : #5e281e;
+.moreProducts .moreButtonProducts:hover {
+  background-color: rgb(247, 144, 144);
 }
 
+/* .card-btn:hover{
+  width: 10px;
+  height: 10px;
+  animation-name: example;
+  animation-duration: 4s;
+} */
+/* @keyframes example {
+  0% {background-color:red; left:0px;}
+  25%  {background-color:yellow; left:25%; }
+  50%  {background-color:blue; left:50%; }
+  75%  {background-color:green; left:75%;}
+  100% {background-color:red; left:100%; }
+} */
 
-.moreProducts .moreButtonProducts:hover a{
-    color: rgb(255, 241, 241);
+.moreProducts .moreButtonProducts a {
+  color: #5e281e;
 }
 
-@media (max-width: 400px) {
+.moreProducts .moreButtonProducts:hover a {
+  color: rgb(255, 241, 241);
+}
+
+@media (max-width: 480px) {
   .grid {
     margin-left: 40px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -118,8 +129,11 @@
     margin-left: 40px;
   }
   .grid-item:hover {
-    transform: translate(-0.10%);
+    transform: translate(-0.1%);
     box-shadow: none;
+  }
+  .moreProducts .moreButtonProducts {
+    width: 100%;
   }
 }
 
@@ -133,5 +147,8 @@
     font-weight: 500;
     color: maroon;
     text-align: center;
+  }
+  .moreProducts .moreButtonProducts {
+    width: 40%;
   }
 }
