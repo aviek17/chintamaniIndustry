@@ -9,9 +9,13 @@ import button from "../Images/Button.png"
 import angle from "../Images/AngleBricks.jpg"
 import diamondTiles from "../Images/DiamondTiles.jpg"
 import arrow from "../Images/right-arrow-alt-solid-24.png"
-import more from "../Images/chevrons-right-regular-24.png"
-import {Link} from "react-router-dom"
-const HomeProducts = () => {
+import diamond from "../Images/diamondBricks.jpg"
+import fourInch from "../Images/4Inch.png"
+import sixInch from "../Images/6Inch.png"
+import damru from "../Images/damru.jpg"
+import { Link } from "react-router-dom"
+
+const AllProducts = () => {
     return (
         <>
             <h1 className="productTitle">
@@ -44,7 +48,7 @@ const HomeProducts = () => {
                     </div>
                     <div class="des">
 
-                    <Link to="/product/flower"><button>Read More <img src={arrow} alt="" /></button></Link>
+                        <Link to="/product/flower"><button>Read More <img src={arrow} alt="" /></button></Link>
                     </div>
                 </div>
 
@@ -61,7 +65,7 @@ const HomeProducts = () => {
                     </div>
                     <div class="des">
 
-                    <Link to="/product/cosmic"><button>Read More <img src={arrow} alt="" /></button></Link>
+                        <Link to="/product/cosmic"><button>Read More <img src={arrow} alt="" /></button></Link>
                     </div>
                 </div>
 
@@ -79,7 +83,7 @@ const HomeProducts = () => {
                     </div>
                     <div class="des">
 
-                    <Link to="/product/button"><button>Read More <img src={arrow} alt="" /></button></Link>
+                        <Link to="/product/button"><button>Read More <img src={arrow} alt="" /></button></Link>
                     </div>
                 </div>
 
@@ -96,7 +100,7 @@ const HomeProducts = () => {
                     </div>
                     <div class="des">
 
-                    <Link to="/product/checkbox"><button>Read More <img src={arrow} alt="" /></button></Link>
+                        <Link to="/product/checkbox"><button>Read More <img src={arrow} alt="" /></button></Link>
                     </div>
                 </div>
 
@@ -108,12 +112,63 @@ const HomeProducts = () => {
                     </div>
                     <div class="title">
                         <h1>
-                           Angle
+                            Angle
                         </h1>
                     </div>
                     <div class="des">
 
-                    <Link to="/product/Angle"><button>Read More <img src={arrow} alt="" /></button></Link>
+                        <Link to="/product/Angle"><button>Read More <img src={arrow} alt="" /></button></Link>
+                    </div>
+                </div>
+
+
+                <div class="card">
+
+                    <div class="image">
+                        <img src={diamond} />
+                    </div>
+                    <div class="title">
+                        <h1>
+                            Diamond
+                        </h1>
+                    </div>
+                    <div class="des">
+
+                        <Link to="/product/diamond"><button>Read More <img src={arrow} alt="" /></button></Link>
+
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+
+                    <div class="image">
+                        <img src={damru} />
+                    </div>
+                    <div class="title">
+                        <h1>
+                            Damru
+                        </h1>
+                    </div>
+                    <div class="des">
+
+                        <Link to="/product/damru"><button>Read More <img src={arrow} alt="" /></button></Link>
+                    </div>
+                </div>
+                <div class="card">
+
+                    <div class="image">
+                        <img src={fourInch} />
+                    </div>
+                    <div class="title">
+                        <h1>
+                            4” Fly-ash Cement Brick
+                        </h1>
+                    </div>
+                    <div class="des">
+
+                        <Link to="/product/fourInch"><button>Read More <img src={arrow} alt="" /></button></Link>
                     </div>
                 </div>
 
@@ -125,12 +180,12 @@ const HomeProducts = () => {
                     </div>
                     <div class="title">
                         <h1>
-                           Zig Zag
+                            Zig Zag
                         </h1>
                     </div>
                     <div class="des">
 
-                    <Link to="/product/zigzag"><button>Read More <img src={arrow} alt="" /></button></Link>
+                        <Link to="/product/zigzag"><button>Read More <img src={arrow} alt="" /></button></Link>
 
                     </div>
                 </div>
@@ -144,24 +199,32 @@ const HomeProducts = () => {
                     </div>
                     <div class="title">
                         <h1>
-                        Diamond
+                            Diamond
                         </h1>
                     </div>
                     <div class="des">
 
-                    <Link to="/product/diamondtiles"><button>Read More <img src={arrow} alt="" /></button></Link>
+                        <Link to="/product/diamondtiles"><button>Read More <img src={arrow} alt="" /></button></Link>
                     </div>
                 </div>
+                <div class="card">
 
-            </div>
-            <div className="moreProducts">
-                <button className="moreButtonProducts">
-                    <Link to="/productAll">More Products  <img src={more} alt="" />  </Link>
-                </button>
-            </div>
+                    <div class="image">
+                        <img src={sixInch} />
+                    </div>
+                    <div class="title">
+                        <h1>
+                            6” Fly-ash Cement Brick
+                        </h1>
+                    </div>
+                    <div class="des">
 
+                        <Link to="/product/sixInch"><button>Read More <img src={arrow} alt="" /></button></Link>
+                    </div>
+                </div>
+            </div>
         </>
     )
 }
 
-export default HomeProducts
+export default AllProducts

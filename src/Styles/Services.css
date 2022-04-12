@@ -115,28 +115,37 @@
     margin-top: 40px;
 }
 
- .cards:hover .galleryImg{
+ .cards:hover img{
     transform : scale(1.2);
-    opacity: 0.5;
+    opacity: 0.7;
     border-radius: 40px;
+    height: 200px;
 }
+
+
+.cards img{
+   
+    height: 200px;
+}
+
 
  .cards:hover .galleryImg1{
     transform : scale(1.5);
-    opacity: 0.5;
+    opacity: 0.7;
+    border-radius: 40px;
+}
+.cards:hover{
     border-radius: 40px;
 }
 
- .cards:hover{
-    height: 280px;
-}
+
 
  .cards:hover  .headers{
     display: block;
-    transform: translateY(-170px);
+    transform: translateY(-100px);
     color: maroon;
     text-align: center;
-    font-size: 22px;
+    font-size: 18px;
 }
  
  .cards:hover  .headers1{

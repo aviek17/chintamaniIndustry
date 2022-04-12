@@ -6,9 +6,13 @@ import manpower from "../Images/mp2.jpg"
 import products from "../Images/p3.jpg"
 import happy from "../Images/happy.png"
 import brick from "../Images/Brick.jpg"
+import zigzag from "../Images/zigzag.jpg"
 import checkBox from "../Images/checkBox.png"
 import flower from "../Images/Flower.png"
 import cosmic from "../Images/cosmic.jpg"
+import button from "../Images/Button.png"
+import angle from "../Images/AngleBricks.jpg"
+import diamondTiles from "../Images/DiamondTiles.jpg"
 import arrow from "../Images/right-arrow-alt-solid-24.png"
 import more from "../Images/chevrons-right-regular-24.png"
 
@@ -48,95 +52,91 @@ const Services = () => {
                 Our Gallery
             </h1>
 
-            <div className="homeProducts">
-                <div className="grid">
-                    <div className="grid-item">
-                        <div className="card cards">
-                            <img className="card-image galleryImg" src={brick} alt="" />
-                        
-                                <h3 className=" headers">Shri Chintamani Industry</h3>
-                            </div>
+            <div className="main">
 
-                        
+
+
+                <div className="card cards">
+
+                    <div className="image">
+                        <img src={brick} />
                     </div>
-                    <div className="grid-item">
-                        <div className="card cards">
-                            <img className="card-image galleryImg" src={checkBox} alt="" />
-                        
-                                <h3 className=" headers">Shri Chintamani Industry</h3>
-                            </div>
+                    
+                </div>
 
-                        
+
+
+                <div className="card cards">
+
+                    <div className="image">
+                        <img src={flower} />
                     </div>
-                    <div className="grid-item">
-                        <div className="card cards">
-                            <img className="card-image galleryImg" src={flower} alt="" />
-                        
-                                <h3 className=" headers">Shri Chintamani Industry</h3>
-                            </div>
+                    
+                </div>
 
-                        
+
+
+                <div className="card cards">
+
+                    <div className="image">
+                        <img src={cosmic} />
                     </div>
-                    <div className="grid-item">
-                        <div className="card cards">
-                            <img className="card-image galleryImg1" src={cosmic} alt="" height="270px" />
-                        
-                                <h3 className=" headers1">Shri Chintamani Industry</h3>
-                            </div>
+                    
+                </div>
 
-                        
+
+
+                <div className="card cards">
+
+                    <div className="image">
+                        <img src={zigzag} />
                     </div>
+                    
+                </div>
 
+
+
+                <div className="card cards">
+
+                    <div className="image">
+                        <img src={checkBox} />
+                    </div>
+                   
+                </div>
+
+
+                <div className="card cards">
+
+                    <div className="image">
+                        <img src={button} />
+                    </div>
+                    
+                </div>
+
+
+                <div className="card cards">
+
+                    <div className="image">
+                        <img src={angle} />
+                    </div>
+                    
+                </div>
+
+
+
+                <div className="card cards">
+
+                    <div className="image">
+                        <img src={diamondTiles} />
+                    </div>
+                    {/* <h3 className="headers">Shri Chintaman Industry</h3> */}
+                    
                 </div>
 
             </div>
-            <div className="homeProducts">
-                <div className="grid">
-                    <div className="grid-item">
-                        <div className="card cards">
-                            <img className="card-image galleryImg" src={brick} alt="" />
-                        
-                                <h3 className=" headers">Shri Chintamani Industry</h3>
-                            </div>
 
-                        
-                    </div>
-                    <div className="grid-item">
-                        <div className="card cards">
-                            <img className="card-image galleryImg" src={checkBox} alt="" />
-                        
-                                <h3 className=" headers">Shri Chintamani Industry</h3>
-                            </div>
 
-                        
-                    </div>
-                    <div className="grid-item">
-                        <div className="card cards">
-                            <img className="card-image galleryImg" src={flower} alt="" />
-                        
-                                <h3 className=" headers">Shri Chintamani Industry</h3>
-                            </div>
-
-                        
-                    </div>
-                    <div className="grid-item">
-                        <div className="card cards">
-                            <img className="card-image galleryImg1" src={cosmic} alt="" height="270px" />
-                        
-                                <h3 className=" headers1">Shri Chintamani Industry</h3>
-                            </div>
-
-                        
-                    </div>
-
-                </div>
-
-            </div>
-            {/* <div className="moreProducts">
-                <button className="moreButtonProducts">
-                    <a href="">More Products  <img src={more} alt="" />  </a>
-                </button>
-            </div> */}
+         
         </>
     )
 }
